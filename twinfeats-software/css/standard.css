@@ -1,0 +1,28 @@
+html {
+    font-family: 'Libre Franklin',sans-serif;
+    font-size: x-large;
+}
+body {margin: 0
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.25;
+    font-family:'Josefin Slab',serif;
+    font-size: large;
+}
+a {
+    color:#f0f0f0;
+    text-decoration: none;
+}
+#home {
+    background-image: url("../images/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
