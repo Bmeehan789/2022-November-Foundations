@@ -1,0 +1,52 @@
+html {
+    font-size: 3vh;
+}
+
+
+section {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/cats\ and\ dogs.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+body {
+    
+    font-family: 'Open Sans', sans-serif;
+    margin:0;
+
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    text-align: center;   
+}
+nav {
+    background-color: #808080;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    bottom: 0;
+    left:0;
+    width: 100%;
+}
+
+nav > a {
+    padding-left: 20px;
+    padding-right: 20px; 
+    color: white;  
+}
+
+
+
+
+
+
+
