@@ -4,10 +4,10 @@
     grid-template-areas: 
     'header header header header'
     'left middle middle right'
-    'footer footer footer footer';
-grid-gap: 0.25em;
-padding:  0.25m;
-background-color: #21f372;
+    'footer-left footer-left footer-right footer-right';
+    grid-gap: 0.25em;
+    padding:  0.25em;
+    background-color: #21f372;
 
 }   
 .grid-container > div {
@@ -15,6 +15,7 @@ background-color: #21f372;
     padding-top: 0.7em;
     padding-bottom: 0.7em;
     font-size: 3vh;
+    background-color: rgba(255,255,255,0.8);
 }
 body {
     margin: 0;
@@ -33,10 +34,10 @@ body {
     grid-area: right;
 }
 .item5 {
-    grid-area: footer;
+    grid-area: footer-left;
 }
 .item6 {
-    grid-area: footer;
+    grid-area: footer-right;
     
 }
 
